@@ -1,7 +1,6 @@
 (function($, window){
     "use strict";
 
-
     function ScrollTo($elem, settings) {
 
         var _public = {};
