@@ -26,13 +26,19 @@ Settings:
 <td>fixedNavElem</td>
 <td>jQuery element</td>
 <td>null</td>
-<td>Data attribute on fixed nav</td>
+<td>Element on fixed nav</td>
 </tr>
 </tr>
 <td>hash</td>
 <td>boolean</td>
 <td>false</td>
 <td>Set #url to true or false</td>
+</tr>
+</tr>
+<td>scrollTo</td>
+<td>jQuery element</td>
+<td>null</td>
+<td>Set element to scroll to</td>
 </tr>
 </tr></tbody></table>
 
