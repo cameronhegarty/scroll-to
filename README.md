@@ -50,6 +50,8 @@ Example:
 
     <a href="#anchor" data-scroll-to='{"animateSpeed" : 300, "fixedNavElem" : "[data-fixed-nav]" "fixedNav" : true, "hash" : true}'>Scroll to #anchor elem</a>
 
-    <div id="anchor">
+    <div data-scroll-to='{"animateSpeed" : 800, "fixedNav" : false, "scrollTo" : "[data-test]", "hash" : false}'>Scroll to data-anchor elem</div>
+
+    <div id="anchor" data-anchor>
         Anchor
     </div>
