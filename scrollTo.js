@@ -10,14 +10,14 @@
 
         var defaults = {
             fixedNav : false,
-            fixedNavElem : 'data-fixed-nav',
+            fixedNavElem : '[data-fixed-nav]',
             animateSpeed: 300,
             hash: false
         };
 
         _public.settings = $.extend({}, defaults, settings);
 
-        var $fixedNav = $('['+ _public.settings.fixedNavElem +']');
+        var $fixedNav = $(_public.settings.fixedNavElem);
 
         var fixedNavHeight = 0;
 
