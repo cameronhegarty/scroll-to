@@ -24,7 +24,7 @@ Settings:
 <td>Gets height of fixed nav and subtracts from the offset</td>
 </tr>
 <td>fixedNavElem</td>
-<td>data attribute</td>
+<td>jQuery element</td>
 <td>null</td>
 <td>Data attribute on fixed nav</td>
 </tr>
